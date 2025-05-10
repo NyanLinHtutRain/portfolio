@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -28,7 +27,7 @@ const Work = () => (
       to final presentation by coordinating tasks, setting internal deadlines, and 
       ensuring smooth collaboration across diverse academic and cultural backgrounds. 
       I facilitated weekly meetings, resolved conflicts constructively, and maintained 
-      project alignment with sustainability and Smart Nation goals. Our team's efforts were recognized 
+      project alignment with sustainability and Smart Nation goals. Our team&rsquo;s efforts were recognized 
       when we won 1st prize at the 34th JCU Convergence Conference Singapore (MDP event).
       </P>
 
