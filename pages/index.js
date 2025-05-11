@@ -18,7 +18,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbTodoey from '../public/images/works/todoeylogo.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -179,12 +179,13 @@ const Home = () => (
             My YouTube channel (Cooking contents)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            href="/works/todoey"
+            title="Todoey"
+            thumbnail={thumbTodoey}
           >
-            A Markdown note-taking app
+            A simple and elegant iOS to-do list app
           </GridItem>
+
         </SimpleGrid>
 
         

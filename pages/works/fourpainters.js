@@ -1,13 +1,9 @@
 import {
-  Box,
   Container,
   Badge,
-  Link,
   List,
   ListItem,
-  UnorderedList,
-  Heading,
-  Center
+  AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -30,61 +26,16 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>DeepLearning, neural-style, Caffe, NodeJS</span>
         </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/23/the-four-painters-a-video-work-created-with-deep-learning/">
-            The four painters: A Video Work Created with Deep Learning{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/19/created-movie-with-deep-learning/">
-            Deep Learningを使って映像作品を作った
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
       </List>
-
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://news.ycombinator.com/item?id=10782289">
-            <Badge mr={2}>Hacker News</Badge>
-            The Four Painters: A Video Work Created with Deep Learning
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="https://gigazine.net/news/20151224-deep-learning-four-painters/">
-            <Badge mr={2}>Gigazine</Badge>
-            実写映像を人工知能「ディープラーニング」でゴッホや葛飾北斎っぽく変換した「the
-            four painters」
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList>
-
-      <Box>
+      <AspectRatio ratio={16 / 9} maxW="720px" mx="auto" my={6} borderRadius="lg" overflow="hidden" boxShadow="lg">
         <iframe
-          src="https://player.vimeo.com/video/146373709"
-          width="100%"
-          height="400"
-          frameBorder="0"
+          src="https://drive.google.com/file/d/11n33iWR-_AdvWSqjpstyu-e3VMzCrpnO/preview"
           allowFullScreen
+          style={{
+            border: 'none'
+          }}
         />
-      </Box>
-
+      </AspectRatio>
       <WorkImage
         src="/images/works/the-four-painters_eyecatch.jpg"
         alt="walknote"
