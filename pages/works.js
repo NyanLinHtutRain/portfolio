@@ -9,7 +9,6 @@ import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch
 import thumbTodoey from '../public/images/works/todoeylogo.png'
 import thumbEcoUmbra from '../public/images/works/EcoUmbraLogo.png'
 import thumbDatamining from '../public/images/works/datamining.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbMelofy from '../public/images/works/thumbMelofy.png' // Melofy thumbnail
 
 const Works = () => (
