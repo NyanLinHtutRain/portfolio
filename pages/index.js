@@ -18,7 +18,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbMelofy from '../public/images/works/thumbMelofy.png' // Ensure this path is correct
+import thumbMelofy from '../public/images/works/thumbMelofy.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I'm a Cloud engineer | Ai & Full stack Dev based in Singapore!
+        Hello, I&apos;m a Cloud engineer | Ai &amp; Full stack Dev based in Singapore!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -118,7 +118,7 @@ const Home = () => (
           <BioYear>Now</BioYear>
           Volunteering in Google Developer Space as Operation Team Member.
           Working as a freelancer, building mobile apps,
-          exploring AI & cloud computing, and managing smart city tech projects.
+          exploring AI &amp; cloud computing, and managing smart city tech projects.
         </BioSection>
       </Section>
 
@@ -176,15 +176,15 @@ const Home = () => (
             href="https://www.youtube.com/@raininthekitchen/videos"
             title="Rain in the kitchen"
             thumbnail={thumbYouTube}
-            isExternal // Assuming your GridItem supports this for opening in a new tab
+            isExternal
           >
             My YouTube channel (Cooking contents)
           </GridItem>
           <GridItem
-            href="https://melofyapp.com" // Points to the live Melofy application
-            title="Melofy"                // Updated title
+            href="https://melofyapp.com"
+            title="Melofy"
             thumbnail={thumbMelofy}
-            isExternal // Opens the live app in a new tab
+            isExternal
           >
             AI-powered smart playlist generator for Spotify.
           </GridItem>
@@ -196,7 +196,7 @@ const Home = () => (
           Contact
         </Heading>
         <Paragraph>
-          Feel free to reach out to me via email or phone. I'm currently based in Singapore.
+          Feel free to reach out to me via email or phone. I&apos;m currently based in Singapore.
         </Paragraph>
         <List spacing={2} mt={3}>
           <ListItem>

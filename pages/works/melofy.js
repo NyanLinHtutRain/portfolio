@@ -31,8 +31,8 @@ const Work = () => (
       <UnorderedList my={4}>
         <ListItem>AI-powered playlist generation from natural language prompts.</ListItem>
         <ListItem>Specify mood, vibe, duration, and musical taste (sample artists/songs).</ListItem>
-        <ListItem>Accurate song matching with Spotify's extensive track library.</ListItem> {/* FIXED */}
-        <ListItem>Automatic creation and saving of playlists directly to the user's Spotify account.</ListItem> {/* FIXED */}
+        <ListItem>Accurate song matching with Spotify&apos;s extensive track library.</ListItem>
+        <ListItem>Automatic creation and saving of playlists directly to the user&apos;s Spotify account.</ListItem>
         <ListItem>User authentication using NextAuth.js (Google Sign-In).</ListItem>
         <ListItem>Serverless backend architecture using AWS Lambda, API Gateway, and DynamoDB.</ListItem>
         <ListItem>Responsive design built with Next.js, TypeScript, and Tailwind CSS.</ListItem>
