@@ -10,6 +10,7 @@ import thumbTodoey from '../public/images/works/todoeylogo.png'
 import thumbEcoUmbra from '../public/images/works/EcoUmbraLogo.png'
 import thumbDatamining from '../public/images/works/datamining.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import thumbMelofy from '../public/images/works/thumbMelofy.png' // Melofy thumbnail
 
 const Works = () => (
   <Layout title="Works">
@@ -19,32 +20,28 @@ const Works = () => (
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem id="melofy" thumbnail={thumbMelofy} title="Melofy">
+            AI-powered smart playlist generator for Spotify based on your mood & taste.
+          </WorkGridItem>
+        </Section>
+
+        <Section>
           <WorkGridItem id="todoey" thumbnail={thumbTodoey} title="Todoey">
-            An app that helps you organize tasks with categories, priorities, 
+            An app that helps you organize tasks with categories, priorities,
             and reminders on iOS.
           </WorkGridItem>
         </Section>
+
         <Section>
           <WorkGridItem
             id="bytecoin"
             title="ByteCoin"
             thumbnail={thumbByteCoin}
           >
-            Live Bitcoin Rates in Any Currency
-            Available in appstore
+            Live Bitcoin Rates in Any Currency. Available in appstore.
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="solarar" title="Solar AR Educational App" thumbnail={thumbSolar}>
             An app that brings the solar system to life through interactive AR.
@@ -63,7 +60,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="ecoumbra" thumbnail={thumbEcoUmbra} title="EcoUmbra">
-          A solar-powered smart umbrella offering public USB charging and lighting 
+          A solar-powered smart umbrella offering public USB charging and lighting
           for sustainable urban spaces.
           </WorkGridItem>
         </Section>
@@ -76,9 +73,14 @@ const Works = () => (
             Analysing Changes in Adult Mortality Rates, 2019-2021
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+       <Section delay={0.1}>
+          <WorkGridItem
+            id="fourpainters"
+            title="The four painters"
+            thumbnail={thumbFourPainters}
+          >
+            A video work generated with deep learning, imitating famous four
+            painters like Van Gogh
           </WorkGridItem>
         </Section>
       </SimpleGrid>

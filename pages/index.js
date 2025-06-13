@@ -9,7 +9,7 @@ import {
   List,
   ListItem,
   useColorModeValue
-} from '@chakra-ui/react' 
+} from '@chakra-ui/react'
 import { ChevronRightIcon} from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
@@ -18,7 +18,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbTodoey from '../public/images/works/todoeylogo.png'
+import thumbMelofy from '../public/images/works/thumbMelofy.png' // Ensure this path is correct
 import Image from 'next/image'
 
 const Home = () => (
@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Singapore!
+        Hello, I'm a Cloud engineer | Ai & Full stack Dev based in Singapore!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -73,15 +73,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Nyan Lin Htut is a software engineer and cloud computing enthusiast based in Singapore, 
-        with a strong passion for building practical and innovative digital solutions. With 
-        experience in both frontend and backend development, he focuses on leveraging cloud platforms 
-        like AWS to build scalable applications. He holds multiple AWS certifications and is currently 
-        working on Melofy, an AI-powered app that creates personalized playlists from user prompts using 
-        AWS services. He also built Todoey, a simple and elegant to-do list app. Previously, 
-        he contributed to major smart city and e-governance projects in Myanmar, including Safe City 
-        and E-Voting systems. He enjoys experimenting with AI, building apps with real-world impact, 
-        and constantly sharpening his skills across cloud infrastructure, machine learning, and 
+        Nyan Lin Htut is a software engineer and cloud computing enthusiast based in Singapore,
+        with a strong passion for building practical and innovative digital solutions. With
+        experience in both frontend and backend development, he focuses on leveraging cloud platforms
+        like AWS to build scalable applications. He holds multiple AWS certifications and is currently
+        working on Melofy, an AI-powered app that creates personalized playlists from user prompts using
+        AWS services. He also built Todoey, a simple and elegant to-do list app. Previously,
+        he contributed to major smart city and e-governance projects in Myanmar, including Safe City
+        and E-Voting systems. He enjoys experimenting with AI, building apps with real-world impact,
+        and constantly sharpening his skills across cloud infrastructure, machine learning, and
         software engineering best practices.
         </Paragraph>
         <Box align="center" my={4}>
@@ -107,16 +107,17 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2025</BioYear>
-          Expected to graduate at July 12,2025 from James Cook University Singapore, 
+          Graduated from James Cook University Singapore,
           with Bachelor of Information Technology.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Worked at Speed Bird Co. Ltd as a Junior Network Helper
+          Worked at Speed Bird Co. Ltd as a Networking Assistant
         </BioSection>
         <BioSection>
           <BioYear>Now</BioYear>
-          Working as a freelancer, building mobile apps, 
+          Volunteering in Google Developer Space as Operation Team Member.
+          Working as a freelancer, building mobile apps,
           exploring AI & cloud computing, and managing smart city tech projects.
         </BioSection>
       </Section>
@@ -126,7 +127,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, AI, Vlogging, Team work, Coding 
+          Cloud, Data, AI, Vlogging, Team work, Music, Coding
         </Paragraph>
       </Section>
 
@@ -170,53 +171,51 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6} mt={4}>
           <GridItem
             href="https://www.youtube.com/@raininthekitchen/videos"
             title="Rain in the kitchen"
             thumbnail={thumbYouTube}
+            isExternal // Assuming your GridItem supports this for opening in a new tab
           >
             My YouTube channel (Cooking contents)
           </GridItem>
           <GridItem
-            href="/works/todoey"
-            title="Todoey"
-            thumbnail={thumbTodoey}
+            href="https://melofyapp.com" // Points to the live Melofy application
+            title="Melofy"                // Updated title
+            thumbnail={thumbMelofy}
+            isExternal // Opens the live app in a new tab
           >
-            A simple and elegant iOS to-do list app
+            AI-powered smart playlist generator for Spotify.
           </GridItem>
-
         </SimpleGrid>
-
-        
       </Section>
+
       <Section delay={0.3}>
-  <Heading as="h3" variant="section-title">
-    Contact
-  </Heading>
-  <Paragraph>
-    Feel free to reach out to me via email or phone. I&apos;m currently based in Singapore.
-  </Paragraph>
-  <List spacing={2} mt={3}>
-    <ListItem>
-      <strong>Email:</strong>{' '}
-      <Link href="mailto:nyanlinhtut662003@gmail.com" color="teal.500">
-        nyanlinhtut662003@gmail.com
-      </Link>
-    </ListItem>
-    <ListItem>
-      <strong>Phone:</strong>{' '}
-      <Link href="tel:+6585952772" color="teal.500">
-        +65 8595 2772
-      </Link>
-    </ListItem>
-    <ListItem>
-      <strong>Location:</strong> Singapore
-    </ListItem>
-  </List>
-</Section>
-
-
+        <Heading as="h3" variant="section-title">
+          Contact
+        </Heading>
+        <Paragraph>
+          Feel free to reach out to me via email or phone. I'm currently based in Singapore.
+        </Paragraph>
+        <List spacing={2} mt={3}>
+          <ListItem>
+            <strong>Email:</strong>{' '}
+            <Link href="mailto:nyanlinhtut662003@gmail.com" color="teal.500">
+              nyanlinhtut662003@gmail.com
+            </Link>
+          </ListItem>
+          <ListItem>
+            <strong>Phone:</strong>{' '}
+            <Link href="tel:+6585952772" color="teal.500">
+              +65 8595 2772
+            </Link>
+          </ListItem>
+          <ListItem>
+            <strong>Location:</strong> Singapore
+          </ListItem>
+        </List>
+      </Section>
     </Container>
   </Layout>
 )
