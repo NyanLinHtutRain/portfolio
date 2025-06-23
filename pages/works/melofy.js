@@ -69,7 +69,7 @@ const Work = () => (
         Branding
       </Heading>
       <Box mb={6} textAlign="center">
-        <WorkImage src="/images/works/melofy/melofy_logo_banner.png" alt="Melofy Logo Banner" />
+        <WorkImage src="/images/works/melofy_logo_banner.png" alt="Melofy Logo Banner" />
         <Text fontSize="sm" mt={2}>Melofy Logo & Banner</Text>
       </Box>
 
@@ -78,11 +78,11 @@ const Work = () => (
         Core Experience
       </Heading>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_home_screen.png" alt="Melofy Home Screen" />
+        <WorkImage src="/images/works/melofy_home_screen.png" alt="Melofy Home Screen" />
         <Text fontSize="sm" mt={2} textAlign="center">Home Screen & AI Playlist Input</Text>
       </Box>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_prompt_input.png" alt="Melofy Prompt Input Details" />
+        <WorkImage src="/images/works/melofy_prompt_input.png" alt="Melofy Prompt Input Details" />
         <Text fontSize="sm" mt={2} textAlign="center">Detailed Prompt Input (Mood, Duration, Taste)</Text>
       </Box>
 
@@ -92,16 +92,16 @@ const Work = () => (
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 2 }} gap={4} mb={6}>
         <Box>
-          <WorkImage src="/images/works/melofy/melofy_generate_button.png" alt="Generate Playlist Button" />
+          <WorkImage src="/images/works/melofy_generate_button.png" alt="Generate Playlist Button" />
           <Text fontSize="sm" mt={2} textAlign="center">AI Generation & Spotify Sync Buttons</Text>
         </Box>
         <Box>
-          <WorkImage src="/images/works/melofy/melofy_view_public_playlist.png" alt="View on Public Playlist" />
+          <WorkImage src="/images/works/melofy_view_public_playlist.png" alt="View on Public Playlist" />
           <Text fontSize="sm" mt={2} textAlign="center">Viewing AI-Generated Playlist Preview</Text>
         </Box>
       </SimpleGrid>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_export_to_spotify.png" alt="Export to Spotify (User Authenticated)" />
+        <WorkImage src="/images/works/melofy_export_to_spotify.png" alt="Export to Spotify (User Authenticated)" />
         <Text fontSize="sm" mt={2} textAlign="center">Export to Spotify (Requires User Sign-In & Spotify Auth)</Text>
       </Box>
 
@@ -110,7 +110,7 @@ const Work = () => (
         User Management
       </Heading>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_profile_signed_in.png" alt="Melofy User Profile (Signed In)" />
+        <WorkImage src="/images/works/melofy_profile_signed_in.png" alt="Melofy User Profile (Signed In)" />
         <Text fontSize="sm" mt={2} textAlign="center">User Profile Page (Post Sign-In)</Text>
       </Box>
 
@@ -119,15 +119,15 @@ const Work = () => (
         Support & Information
       </Heading>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_about_page.png" alt="Melofy About Page" />
+        <WorkImage src="/images/works/melofy_about_page.png" alt="Melofy About Page" />
         <Text fontSize="sm" mt={2} textAlign="center">About Melofy Page</Text>
       </Box>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_contact_page.png" alt="Melofy Contact & Subscription" />
+        <WorkImage src="/images/works/melofy_contact_page.png" alt="Melofy Contact & Subscription" />
         <Text fontSize="sm" mt={2} textAlign="center">Contact Form & Subscription Section</Text>
       </Box>
       <Box mb={6}>
-        <WorkImage src="/images/works/melofy/melofy_footer.png" alt="Melofy Footer" />
+        <WorkImage src="/images/works/melofy_footer.png" alt="Melofy Footer" />
         <Text fontSize="sm" mt={2} textAlign="center">Website Footer with Navigation</Text>
       </Box>
     </Container>

@@ -118,7 +118,15 @@ const Home = () => (
           <BioYear>Now</BioYear>
           Volunteering in Google Developer Space as Operation Team Member.
           Working as a freelancer, building mobile apps,
-          exploring AI &amp; cloud computing, and managing smart city tech projects.
+          exploring AI &amp; cloud computing, and managing smart city tech projects.                         
+
+          Assistant Director for Education (Tech) at the Asia AI Association, 
+          responsible for leading AI education programs and hands on workshops across the region.
+        </BioSection>
+        <BioSection>
+          <BioYear>Now</BioYear>
+          Assistant Director for Education (Tech) at the Asia AI Association, 
+          responsible for leading AI education programs and hands on workshops across the region.
         </BioSection>
       </Section>
 
