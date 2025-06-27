@@ -10,7 +10,7 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon} from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -73,16 +73,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Nyan Lin Htut is a software engineer and cloud computing enthusiast based in Singapore,
-        with a strong passion for building practical and innovative digital solutions. With
-        experience in both frontend and backend development, he focuses on leveraging cloud platforms
-        like AWS to build scalable applications. He holds multiple AWS certifications and is currently
-        working on Melofy, an AI-powered app that creates personalized playlists from user prompts using
-        AWS services. He also built Todoey, a simple and elegant to-do list app. Previously,
-        he contributed to major smart city and e-governance projects in Myanmar, including Safe City
-        and E-Voting systems. He enjoys experimenting with AI, building apps with real-world impact,
-        and constantly sharpening his skills across cloud infrastructure, machine learning, and
-        software engineering best practices.
+          Nyan Lin Htut is a software engineer and cloud computing enthusiast based in Singapore with a passion for building practical, real-world digital solutions. With hands-on experience in both frontend and backend development, he specializes in using cloud platforms like AWS to develop scalable applications. He holds multiple AWS certifications and is currently building Melofy, an AI-powered web app that generates personalized Spotify playlists using OpenAI and AWS services. He also developed Todoey, a lightweight and elegant to-do list app for iOS.
+
+          Previously, Nyan worked as a Software Engineer at Speed Bird Co. Ltd, where he developed backend tools and internal systems for network infrastructure support. He continues to explore AI, cloud technologies, and full-stack development to deliver impactful and efficient software solutions.
+
+
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -103,30 +98,27 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2003</BioYear>
-          2003 Born in Myanmar (မြန်မာ)
+          Born in Myanmar (မြန်မာ)
+        </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          Completed Diploma of Education in Computer Software Engineering at ACE Inspiration, Myanmar.
         </BioSection>
         <BioSection>
           <BioYear>2025</BioYear>
-          Graduated from James Cook University Singapore,
-          with Bachelor of Information Technology.
+          Graduated from James Cook University Singapore, with Bachelor of Information Technology.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          Worked at Speed Bird Co. Ltd as a Networking Assistant
+          <BioYear>2020 – 2022</BioYear>
+          Worked at Speed Bird Co. Ltd as a Software Engineer (Intern → Full-Time)
         </BioSection>
         <BioSection>
-          <BioYear>Now</BioYear>
-          Volunteering in Google Developer Space as Operation Team Member.
-          Working as a freelancer, building mobile apps,
-          exploring AI &amp; cloud computing, and managing smart city tech projects.                         
-
-          Assistant Director for Education (Tech) at the Asia AI Association, 
-          responsible for leading AI education programs and hands on workshops across the region.
+          <BioYear>2025 – Present</BioYear>
+          Operations Team Member at Google Developers Group Singapore
         </BioSection>
         <BioSection>
-          <BioYear>Now</BioYear>
-          Assistant Director for Education (Tech) at the Asia AI Association, 
-          responsible for leading AI education programs and hands on workshops across the region.
+          <BioYear>2025 – Present</BioYear>
+          Assistant Director – Education (Tech) at Asia AI Association
         </BioSection>
       </Section>
 
