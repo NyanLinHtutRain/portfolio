@@ -8,6 +8,8 @@ import thumbAiPractitioner from '../public/images/contents/aipractitioner.jpg'
 import thumbSolutionArchitect from '../public/images/contents/solutionarchitect.jpg'
 import thumbHackerRank from '../public/images/contents/hackerrank.jpg'
 import thumbUdemySwift from '../public/images/contents/CertificateUdemySwift_APPdevlopmentNYANLINHTUT.jpg'
+import thumbMdp1stPrize from '../public/images/contents/MDP_1stprize_certificate.jpeg'
+
 
 
 const Certificates = () => (
@@ -50,7 +52,13 @@ const Certificates = () => (
             thumbnail={thumbUdemySwift}
             href="https://udemy-certificate.s3.amazonaws.com/image/UC-c4d3cf8d-f30b-4aa5-a314-8fbd177d2575.jpg"
           />
-        </SimpleGrid>
+          <GridItem
+            title="First Prize - Multidisciplinary project event JCU"
+            thumbnail={thumbMdp1stPrize}
+            href="/images/contents/MDP_1stprize_certificate.jpeg"
+          />
+
+        </SimpleGrid> 
       </Section>
 
       
