@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Cloud engineer | Ai &amp; Full stack Dev based in Singapore!
+        Hello, I&apos;m a Software engineer | Ai &amp; Full stack Dev based in Singapore!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Nyan Lin Htut
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Cloud Enthusiast )</p>
+          <p>Digital Craftsman ( Ai / Developer / Cloud Enthusiast )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -73,11 +73,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Nyan Lin Htut is a software engineer and cloud computing enthusiast based in Singapore with a passion for building practical, real-world digital solutions. With hands-on experience in both frontend and backend development, he specializes in using cloud platforms like AWS to develop scalable applications. He holds multiple AWS certifications and is currently building Melofy, an AI-powered web app that generates personalized Spotify playlists using OpenAI and AWS services. He also developed Todoey, a lightweight and elegant to-do list app for iOS.
+          Nyan Lin Htut is a full-stack software engineer and cloud computing enthusiast based in Singapore with a passion for building practical, real-world digital solutions. With hands-on experience in both frontend and backend development, he specializes in using cloud platforms like AWS to develop scalable applications. He holds multiple AWS certifications and is skilled in Java, Python, React, TypeScript, Spring Boot, and serverless architecture including Lambda, DynamoDB, and API Gateway. He also explores agentic AI development, creating autonomous tools that streamline workflows and enhance productivity.
 
-          Previously, Nyan worked as a Software Engineer at Speed Bird Co. Ltd, where he developed backend tools and internal systems for network infrastructure support. He continues to explore AI, cloud technologies, and full-stack development to deliver impactful and efficient software solutions.
-
-
+          Previously, Nyan worked as a full-stack developer, where he built internal tools, automation scripts, and monitoring systems to support network and infrastructure operations. He continues to explore AI, cloud technologies, and full-stack development to deliver impactful and efficient software solutions.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -127,7 +125,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Cloud, Data, AI, Vlogging, Team work, Music, Coding
+          Cloud, Data, AI, Vlogging, SCRUM, Music, Coding
         </Paragraph>
       </Section>
 
