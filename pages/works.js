@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { WorkGridItem, GridItem } from '../components/grid-item'
 
 // eslint-disable-next-line no-unused-vars -- kept for hidden Solar AR card, see below
 import thumbSolar from '../public/images/works/solarapplogo.png'
@@ -16,6 +16,7 @@ import thumbMelofy from '../public/images/works/thumbMelofy.png' // Melofy thumb
 import thumbHostFlow from '../public/images/works/hostflowai.png'
 import thumbWiseBoys from '../public/images/works/wiseboys.png'
 import thumbYtModerator from '../public/images/works/ytmoderator.png'
+import thumbYouTube from '../public/images/links/youtube.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -61,6 +62,17 @@ const Works = () => (
           <WorkGridItem id="melofy" thumbnail={thumbMelofy} title="Melofy">
             AI-powered smart playlist generator for Spotify based on your mood & taste.
           </WorkGridItem>
+        </Section>
+
+        <Section>
+          <GridItem
+            href="https://www.youtube.com/@raininthekitchen/videos"
+            title="Rain in the kitchen"
+            thumbnail={thumbYouTube}
+            isExternal
+          >
+            My YouTube channel (Cooking contents)
+          </GridItem>
         </Section>
 
         {/* Hidden from the works list per request — pages/assets kept intact, not deleted.
