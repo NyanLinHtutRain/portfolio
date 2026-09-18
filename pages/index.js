@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Software engineer | Ai &amp; Full stack Dev based in Singapore!
+        Hello, I&apos;m a Full-stack AI Software Engineer based in Auckland, New Zealand!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -73,9 +73,18 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Nyan Lin Htut is a full-stack software engineer and cloud computing enthusiast based in Singapore with a passion for building practical, real-world digital solutions. With hands-on experience in both frontend and backend development, he specializes in using cloud platforms like AWS to develop scalable applications. He holds multiple AWS certifications and is skilled in Java, Python, React, TypeScript, Spring Boot, and serverless architecture including Lambda, DynamoDB, and API Gateway. He also explores agentic AI development, creating autonomous tools that streamline workflows and enhance productivity.
-
-          Previously, Nyan worked as a full-stack developer, where he built internal tools, automation scripts, and monitoring systems to support network and infrastructure operations. He continues to explore AI, cloud technologies, and full-stack development to deliver impactful and efficient software solutions.
+          Full-stack AI software engineer based in Auckland, New Zealand, having
+          previously worked across Malaysia, Singapore, and Myanmar. A cloud and
+          AI enthusiast focused on building scalable AI applications and
+          production-grade AI agents. He has spoken at Google and AWS events and
+          is an active tech speaker and community builder. A fun, easy-going team
+          player who loves talking with people and solving problems.
+        </Paragraph>
+        <Paragraph>
+          Day to day, he designs and ships end-to-end AI systems, from
+          intelligent web apps to autonomous agents that streamline real-world
+          workflows, pairing modern full-stack development with cloud platforms
+          like AWS to deliver reliable, production-ready software.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -103,12 +112,12 @@ const Home = () => (
           Completed Diploma of Education in Computer Software Engineering at ACE Inspiration, Myanmar.
         </BioSection>
         <BioSection>
-          <BioYear>2025</BioYear>
-          Graduated from James Cook University Singapore, with Bachelor of Information Technology.
-        </BioSection>
-        <BioSection>
           <BioYear>2020 – 2022</BioYear>
           Worked at Speed Bird Co. Ltd as a Software Engineer (Intern → Full-Time)
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Graduated from James Cook University Singapore, with Bachelor of Information Technology.
         </BioSection>
         <BioSection>
           <BioYear>2025 – Present</BioYear>
@@ -117,6 +126,14 @@ const Home = () => (
         <BioSection>
           <BioYear>2025 – Present</BioYear>
           Assistant Director – Education (Tech) at Asia AI Association
+        </BioSection>
+        <BioSection>
+          <BioYear>2026</BioYear>
+          Worked at Axrail.ai, Kuala Lumpur, Malaysia as a Full-stack Engineer
+        </BioSection>
+        <BioSection>
+          <BioYear>2026</BioYear>
+          Worked at H3VEA Technologies, Singapore as a Software Engineer
         </BioSection>
       </Section>
 
@@ -194,7 +211,7 @@ const Home = () => (
           Contact
         </Heading>
         <Paragraph>
-          Feel free to reach out to me via email or phone. I&apos;m currently based in Singapore.
+          Feel free to reach out to me via email or phone. I&apos;m currently based in Auckland, New Zealand.
         </Paragraph>
         <List spacing={2} mt={3}>
           <ListItem>
@@ -205,12 +222,12 @@ const Home = () => (
           </ListItem>
           <ListItem>
             <strong>Phone:</strong>{' '}
-            <Link href="tel:+6585952772" color="teal.500">
-              +65 8595 2772
+            <Link href="tel:+64221043361" color="teal.500">
+              +64 22 104 3361
             </Link>
           </ListItem>
           <ListItem>
-            <strong>Location:</strong> Singapore
+            <strong>Location:</strong> Auckland, New Zealand
           </ListItem>
         </List>
       </Section>

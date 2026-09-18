@@ -126,7 +126,8 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/NyanLinHtutRain/portfolio"
+                  href="https://github.com/NyanLinHtutRain"
+                  target="_blank"
                 >
                   View Source
                 </MenuItem>

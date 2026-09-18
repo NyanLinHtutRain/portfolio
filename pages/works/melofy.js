@@ -15,6 +15,12 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
+const H = ({ children }) => (
+  <Text as="span" color="#E53E3E" fontWeight="semibold">
+    {children}
+  </Text>
+)
+
 const Work = () => (
   <Layout title="Melofy AI Playlist Generator">
     <Container>
@@ -23,18 +29,24 @@ const Work = () => (
       </Title>
       <P>
         Melofy is an intelligent web application that empowers users to
-        effortlessly create personalized Spotify playlists based on their mood,
-        vibe, desired duration, and musical taste. Leveraging AI (OpenAI
-        GPT-3.5) and seamless Spotify integration, Melofy transforms textual
-        prompts into curated listening experiences.
+        effortlessly create <H>personalized Spotify playlists</H> based on
+        their mood, vibe, desired duration, and musical taste. Leveraging{' '}
+        <H>AI (OpenAI GPT-3.5)</H> and seamless Spotify integration, Melofy
+        transforms textual prompts into curated listening experiences.
       </P>
       <UnorderedList my={4}>
-        <ListItem>AI-powered playlist generation from natural language prompts.</ListItem>
+        <ListItem>
+          <H>AI-powered playlist generation</H> from natural language
+          prompts.
+        </ListItem>
         <ListItem>Specify mood, vibe, duration, and musical taste (sample artists/songs).</ListItem>
         <ListItem>Accurate song matching with Spotify&apos;s extensive track library.</ListItem>
         <ListItem>Automatic creation and saving of playlists directly to the user&apos;s Spotify account.</ListItem>
         <ListItem>User authentication using NextAuth.js (Google Sign-In).</ListItem>
-        <ListItem>Serverless backend architecture using AWS Lambda, API Gateway, and DynamoDB.</ListItem>
+        <ListItem>
+          Serverless backend architecture using <H>AWS Lambda</H>, API
+          Gateway, and DynamoDB.
+        </ListItem>
         <ListItem>Responsive design built with Next.js, TypeScript, and Tailwind CSS.</ListItem>
       </UnorderedList>
 
